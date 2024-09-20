@@ -1,0 +1,85 @@
+	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	background: #34495e;
+}
+
+.add-task{
+	width: 80%;
+	margin: 50px auto;
+	color: white;
+}
+
+.add-task h2{
+	text-align: center;
+	font-size: 40px;
+	border-bottom: 6px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.form-group{
+	margin-bottom: 20px;
+}
+
+.form-group label{
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.form-group input[type="text"], .form-group input[type="file"], .form-group textarea{
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+.custom-file-input::-webkit-file-upload-button{
+	visibility: hidden;
+}
+
+.custom-file-input::before{
+	content: 'Select File';
+	display: inline-block;
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.custom-file-input:hover::before{
+	background-color: #3e8e41;
+}
+
+.custom-file-input:active::before{
+	background-color: #3e8e41;
+}
+
+.form-group textarea{
+	height: 150px;
+	resize: none;
+}
+
+button[type="submit"]{
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover{
+	background-color: #3e8e41;
+}
